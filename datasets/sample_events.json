@@ -1,0 +1,27 @@
+# scripts/hunt_parser.py
+import json
+import sys
+
+MITRE_MAP = {
+    "4625": "T1110 - Brute Force",
+    "4688": "T1059 - Command Execution",
+    "4672": "T1078 - Valid Accounts"
+}
+
+def parse_log(file):
+    try:
+        with open(file, "r") as f:
+            for line in f:
+                try:
+                    event = json.loads(line)
+                    technique = MITRE_MAP.get(str(event.get("event_id")), "Unknown")
+                    print(f"{event.get('timestamp','N/A')} | {event.get('user','N/A')} | {event.get('action','N/A')} | {technique}")
+                except json.JSONDecodeError:
+                    print(f"Skipping malformed line: {line.strip()}")
+    except FileNotFoundError:
+        print(f"File not found: {file}")
+
+if __name__ == "__main__":
+    # Allow dynamic file input, default to sample dataset
+    file = sys.argv[1] if len(sys.argv) > 1 else "datasets/sample_events.json"
+    parse_log(file)
