@@ -1,0 +1,6 @@
+{"timestamp": "2026-06-09T02:00:00Z", "event_id": 4624, "user": "ejike", "action": "LogonSuccess", "source_ip": "192.168.1.10"}
+{"timestamp": "2026-06-09T02:05:00Z", "event_id": 4625, "user": "unknown", "action": "LogonFailure", "source_ip": "203.0.113.45"}
+{"timestamp": "2026-06-09T02:10:00Z", "event_id": 4688, "user": "admin", "action": "ProcessCreation", "process": "cmd.exe"}
+{"timestamp": "2026-06-09T02:15:00Z", "event_id": 4672, "user": "svc_account", "action": "SpecialPrivilegesAssigned"}
+{"timestamp": "2026-06-09T02:20:00Z", "event_id": 4625, "user": "root", "action": "SSHLoginFailure", "source_ip": "198.51.100.23"}
+{"timestamp": "2026-06-09T02:25:00Z", "event_id": 4624, "user": "analyst", "action": "LogonSuccess", "source_ip": "10.0.0.5"}
