@@ -1,0 +1,26 @@
+##############################################
+# Splunk Threat Hunting Queries
+# MITRE ATT&CK Aligned
+##############################################
+
+# 🔐 Failed Logon Attempts (Brute Force - T1110)
+index=wineventlog EventCode=4625
+| stats count by Account_Name, Source_Network_Address
+| where count > 5
+| sort - count
+
+# ⚡ Privilege Escalation (Valid Accounts - T1078)
+index=wineventlog EventCode=4672
+| stats count by Account_Name, Privileges
+| where Privileges="SeDebugPrivilege" OR Privileges="SeTcbPrivilege"
+
+# 🖥️ Suspicious Process Creation (Command Execution - T1059)
+index=wineventlog EventCode=4688
+| stats count by New_Process_Name, Account_Name
+| where New_Process_Name="cmd.exe" OR New_Process_Name="powershell.exe"
+
+# 🌐 Rare External IP Connections
+index=network_logs sourcetype=firewall
+| stats count by src_ip, dest_ip
+| eventstats avg(count) as avg_conn
+| where count < avg_conn/10
