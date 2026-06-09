@@ -1,0 +1,25 @@
+##############################################
+# Elastic Security Threat Hunting Queries
+# MITRE ATT&CK Aligned
+##############################################
+
+# 🔐 Failed Logon Attempts (Brute Force - T1110)
+event.code: "4625"
+| stats count by user.name, source.ip
+| where count > 5
+
+# ⚡ Privilege Escalation (Valid Accounts - T1078)
+event.code: "4672"
+| stats count by user.name, winlog.event_data.Privileges
+| where winlog.event_data.Privileges : ("SeDebugPrivilege", "SeTcbPrivilege")
+
+# 🖥️ Suspicious Process Creation (Command Execution - T1059)
+event.code: "4688"
+| stats count by process.name, user.name
+| where process.name : ("cmd.exe", "powershell.exe")
+
+# 🌐 Rare External IP Connections
+network.direction: "outbound"
+| stats count by source.ip, destination.ip
+| eventstats avg(count) as avg_conn
+| where count < avg_conn/10
