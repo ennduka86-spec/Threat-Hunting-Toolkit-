@@ -8,6 +8,10 @@
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red?logo=mitre)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-blue?logo=githubactions)
 ![CI/CD](https://github.com/ennduka86-spec/Threat-Hunting-Toolkit-/actions/workflows/ci.yml/badge.svg)
+![Stars](https://img.shields.io/github/stars/ennduka86-spec/Threat-Hunting-Toolkit-?style=social)
+![Forks](https://img.shields.io/github/forks/ennduka86-spec/Threat-Hunting-Toolkit-?style=social)
+![License](https://img.shields.io/github/license/ennduka86-spec/Threat-Hunting-Toolkit-)
+![Last Commit](https://img.shields.io/github/last-commit/ennduka86-spec/Threat-Hunting-Toolkit-)
 
 
 
