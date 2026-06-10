@@ -1,11 +1,11 @@
-# Threat-Hunting-Toolkit-
-Scripts, queries, and playbooks for MITRE ATT&amp;CK‑aligned threat hunting across SIEM (Splunk, Sentinel), EDR (CrowdStrike), and cloud platforms (AWS, Azure). Includes automation workflows, detection rules, and documentation to support proactive SOC investigations.
+# Threat-Hunting-Toolkit
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ennduka86-spec/Threat-Hunting-Toolkit-?color=blue)
-![GitHub stars](https://img.shields.io/github/stars/ennduka86-spec/Threat-Hunting-Toolkit-?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/ennduka86-spec/Threat-Hunting-Toolkit-?color=green)
-![Python version](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/github/license/ennduka86-spec/Threat-Hunting-Toolkit-?color=yellow)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1-lightblue?logo=powershell)
+![Bash](https://img.shields.io/badge/Bash-4.4-green?logo=gnu-bash)
+![Splunk](https://img.shields.io/badge/Splunk-SPL-orange?logo=splunk)
+![Elastic](https://img.shields.io/badge/Elastic-KQL-yellow?logo=elastic)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red?logo=mitre)
 
 ---
 
