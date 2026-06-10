@@ -6,7 +6,8 @@
 ![Splunk](https://img.shields.io/badge/Splunk-SPL-orange?logo=splunk)
 ![Elastic](https://img.shields.io/badge/Elastic-KQL-yellow?logo=elastic)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red?logo=mitre)
-![CI/CD](https://github.com/ennduka86-spec/Threat-Hunting-Toolkit-/actions/workflows/ci.yml/badge.svg)
+![CI/CD](https://github.com/ennduka86-spec/Threat-Hunting-Toolkit-/actions/workflows/tests.yml/badge.svg)
+
 
 
 ---
