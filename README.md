@@ -6,6 +6,7 @@
 ![Splunk](https://img.shields.io/badge/Splunk-SPL-orange?logo=splunk)
 ![Elastic](https://img.shields.io/badge/Elastic-KQL-yellow?logo=elastic)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red?logo=mitre)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-blue?logo=githubactions)
 
 
 
