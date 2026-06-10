@@ -7,7 +7,16 @@
 ![Elastic](https://img.shields.io/badge/Elastic-KQL-yellow?logo=elastic)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red?logo=mitre)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-blue?logo=githubactions)
+![CI/CD](https://github.com/ennduka86-spec/Threat-Hunting-Toolkit-/actions/workflows/ci.yml/badge.svg)
+![Coverage](https://codecov.io/gh/ennduka86-spec/Threat-Hunting-Toolkit-/branch/main/graph/badge.svg)
+![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=ennduka86-spec_Threat-Hunting-Toolkit-&metric=alert_status)
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1-blue?logo=powershell)
+![Bash](https://img.shields.io/badge/Bash-4.4-blue?logo=gnu-bash)
+![Splunk SPL](https://img.shields.io/badge/Splunk-SPL-orange?logo=splunk)
+![Elastic KQL](https://img.shields.io/badge/Elastic-KQL-yellow?logo=elastic)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)
 
 
 
