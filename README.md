@@ -41,6 +41,13 @@ Threat-Hunting-Toolkit/
 │   └── test_hunt_parser.py
 ├── README.md
 └── LICENSE
+## ⚙️ Installation
+Clone the repository and set up dependencies:
+```bash
+git clone https://github.com/ennduka86-spec/Threat-Hunting-Toolkit-.git
+cd Threat-Hunting-Toolkit-
+pip install -r requirements.txt
+
 ```
 ## ✨ Features
 - Cross-platform scripts
@@ -68,6 +75,20 @@ Threat-Hunting-Toolkit/
 - T1566 – Phishing
 - T1098 – Account Manipulation
 - T1087 – Account Discovery
+
+## 🤝 Contributing
+- Contributions are welcome!
+- Fork the repository
+- Create a feature branch (git checkout -b feature/new-playbook)
+- Commit your changes (git commit -m "Add new playbook for persistence")
+- Push to the branch (git push origin feature/new-playbook)
+- Open a Pull Request
+## 🙏 Acknowledgments
+- MITRE ATT&CK for technique mapping
+- Splunk and Elastic for query frameworks
+- Sysmon and Windows Event Logs for telemetry sources
+- Community SOC analysts for inspiration and best practices
+
 
 ```
 ## 📂 Textual Diagram (ASCII Box Style)
