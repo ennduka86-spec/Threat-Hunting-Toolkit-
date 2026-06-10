@@ -41,6 +41,7 @@ Threat-Hunting-Toolkit/
 │   └── test_hunt_parser.py
 ├── README.md
 └── LICENSE
+```
 ## ⚙️ Installation
 Clone the repository and set up dependencies:
 ```bash
