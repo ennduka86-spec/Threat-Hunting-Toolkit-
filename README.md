@@ -9,6 +9,9 @@
 ![CI/CD](https://github.com/ennduka86-spec/Threat-Hunting-Toolkit-/actions/workflows/ci.yml/badge.svg)
 ![Coverage](https://codecov.io/gh/ennduka86-spec/Threat-Hunting-Toolkit-/branch/main/graph/badge.svg)
 ![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=ennduka86-spec_Threat-Hunting-Toolkit-&metric=alert_status)
+![GitHub last commit](https://img.shields.io/github/last-commit/ennduka86-spec/Threat-Hunting-Toolkit-)
+![GitHub stars](https://img.shields.io/github/stars/ennduka86-spec/Threat-Hunting-Toolkit-?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ennduka86-spec/Threat-Hunting-Toolkit-?style=social)
 
 
 
