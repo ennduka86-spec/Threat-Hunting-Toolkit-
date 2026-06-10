@@ -37,3 +37,62 @@ Threat-Hunting-Toolkit/
 │   └── test_hunt_parser.py
 ├── README.md
 └── LICENSE
+```
+## ✨ Features
+- Cross-platform scripts
+- Detection queries
+- Playbooks
+- Sample datasets
+- Unit tests
+## 🔄 Workflow
+- Collect logs → Windows, SSH, Cloud, Email
+- Parse events → Python, PowerShell, Bash scripts
+- Map to MITRE ATT&CK techniques
+- Run detection queries (Splunk SPL / Elastic KQL)
+- Investigate with playbooks
+- Respond & document
+## 🔮 Future Work
+- Add YARA rules for malware hunting
+- Expand cloud playbooks (GCP, Kubernetes)
+- Integrate CI/CD pipeline for automated hunts
+- Add Splunk/Elastic dashboards
+## 🛡️ MITRE ATT&CK Coverage
+- T1110 – Brute Force
+- T1078 – Valid Accounts
+- T1059 – Command Execution
+- T1547 – Persistence
+- T1566 – Phishing
+- T1098 – Account Manipulation
+- T1087 – Account Discovery
+
+```
+## 📂 Textual Diagram (ASCII Box Style)
+  +-------------------+        +-------------------+        +-------------------+
+|   Log Sources     | -----> |   Hunt Scripts    | -----> | MITRE ATT&CK Map  |
+| (Windows, SSH,    |        | (Python, PS, Bash)|        |   Techniques      |
+|  Cloud, Email)    |        +-------------------+        +-------------------+
++-------------------+                 |                           |
+                                      v                           v
+                              +-------------------+        +-------------------+
+                              | Detection Queries | -----> |   Playbooks       |
+                              | (Splunk, Elastic) |        | Investigation     |
+                              +-------------------+        +-------------------+
+                                                                |
+                                                                v
+                                                        +-------------------+
+                                                        | Response Actions  |
+                                                        | (Quarantine, MFA, |
+                                                        |  Reset, Revoke)   |
+                                                        +-------------------+
+```
+## 📦 Architecture Diagram (Mermaid)
+```mermaid
+flowchart TD
+    A[Logs: Windows, SSH, Cloud, Email] --> B[Scripts: Parser + Hunts]
+    B --> C[MITRE ATT&CK Mapping]
+    C --> D[Detection Queries: Splunk + Elastic]
+    D --> E[Playbooks: Investigation Steps]
+    E --> F[Response Actions: Quarantine, Reset, Revoke]
+```
+## 📌 License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
