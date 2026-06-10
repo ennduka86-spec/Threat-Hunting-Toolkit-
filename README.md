@@ -74,7 +74,7 @@ pip install -r requirements.txt
 - T1566 – Phishing
 - T1098 – Account Manipulation
 - T1087 – Account Discovery
-```
+
 ## 🤝 Contributing
 - Contributions are welcome!
 - Fork the repository
