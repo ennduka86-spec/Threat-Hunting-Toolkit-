@@ -9,6 +9,7 @@
 ![CI/CD](https://github.com/ennduka86-spec/Threat-Hunting-Toolkit-/actions/workflows/ci.yml/badge.svg)
 ![Coverage](https://codecov.io/gh/ennduka86-spec/Threat-Hunting-Toolkit-/branch/main/graph/badge.svg)
 ![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Threat-Hunting-Toolkit&metric=alert_status)
+![Coverage](https://codecov.io/gh/ennduka86-spec/Threat-Hunting-Toolkit-/branch/main/graph/badge.svg)
 
 
 
