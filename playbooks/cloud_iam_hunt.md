@@ -1,9 +1,3 @@
-
----
-
-## 📄 `cloud_iam_hunt.md`
-
-```markdown
 # Cloud IAM Hunt Playbook
 
 ## Objective
